@@ -13,6 +13,11 @@
 		<link href="assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
 		<link href="assets/fontawesome/css/brands.css" rel="stylesheet" />
 		<link href="assets/fontawesome/css/solid.css" rel="stylesheet" />
+		<meta property="og:url" content="https://leonavalleygymkhana.com" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Leona Valley Gymkhana" />
+		<meta property="og:description" content="Join us for monthly gymkhana playdays." />
+		<meta property="og:image" content="https://leonavalleygymkhana.com/assets/lvia_og_image.jpg" />
 	</head>
 	<body>
 		<!-- Responsive navbar-->
@@ -22,18 +27,23 @@
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-						<!-- <li class="nav-item"><a class="nav-link" href="#">Current Standings</a></li> -->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Show Results</a>
+							<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="/docs/2024/04272024.html">April 2024</a></li>
+							</ul>
+						</li>
 						<li class="nav-item"><a class="nav-link" href="/docs/thirteenevents.pdf">Events</a></li>
 						<li class="nav-item"><a class="nav-link" href="/docs/ratingmatrix_color.pdf">Time Matrix</a></li>
-						<!-- <li class="nav-item dropdown">
+						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Forms</a>
 							<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
 								<li><a class="dropdown-item" href="#">Sign Up Sheet</a></li>
-								<li><a class="dropdown-item" href="#">Rules</a></li>
+								<!-- <li><a class="dropdown-item" href="#">Rules</a></li>
 								<li><hr class="dropdown-divider" /></li>
-								<li><a class="dropdown-item" href="#">Something else here</a></li>
+								<li><a class="dropdown-item" href="#">Something else here</a></li> -->
 							</ul>
-						</li> -->
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -43,14 +53,27 @@
 			<div class="text-center mt-5">
 				<h1>Leona Valley Gymkhana</h1>
 				<p class="lead">Monthly gymkhana play days on the fourth Saturday of each month at the Lee Rackett arena. Signups begin at 8:00AM, each show starts promptly at 9:00AM.</p>
-				<p class="lead"><a href="https://maps.app.goo.gl/nVa8V8jTeU3eDL5t6">8367 Elizabeth Lake Rd. Leona Valley, CA 93551</a></p>
-				<h2>2024 Events</h2>
-				<p><a href="https://forms.gle/Nb4pCQE5k44s8wf36">April 27, 2024 (Pre-entry is open now!)</a></p>
-				<p>May 18, 2024</p>
-				<p>June 22, 2024</p>
-				<p>September 14, 2024 (March makeup show)</p>
-				<p>September 28, 2024</p>
-				<p>October 26, 2024</p>
+				<div class="row">
+					<div class="col-6">
+						<h2>Upcoming Events</h2>
+						<p>May 18, 2024</p>
+						<p>June 22, 2024</p>
+						<p>September 14, 2024 (March makeup show)</p>
+						<p>September 28, 2024</p>
+						<p>October 26, 2024</p>
+					</div>
+					<div class="col-6">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.5531076400684!2d-118.27954450000001!3d34.615460399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c25d942856ecdd%3A0x12ff3541c7bb71ef!2s8367%20Elizabeth%20Lake%20Rd%2C%20Leona%20Valley%2C%20CA%2093551!5e0!3m2!1sen!2sus!4v1714275517216!5m2!1sen!2sus" width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+				</div>
+				<hr />
+				<div class="row text-center">
+					<div class="col-12">
+						<h2>Show Results - April 2024</h2>
+						<center>
+						<iframe src="/docs/2024/04272024.html" width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"</iframe>
+						</center>
+				</div>
 			</div>
 		</div>
 		<div class="container">
